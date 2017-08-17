@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+body * {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 100%;
+}
+header {
+  background: gray;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+header h1{
+  color: white;
+  margin: 10px;
+}
+nav {
+  align-items: center;
+  flex: 0 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 10px;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover {
+  background: lightgray;
+}
+form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+form * {
+  font-size: 1em;
+  margin: 10px 0;
+  padding: 10px;
+}
+main {
+  margin: 10px auto;
+  max-width: 500px;
+  width: 100%;
+}
+main a {
+  background: lightgray;
+  border: 1px solid gray;
+  color: black;
+  display: block;
+  font-size: 1em;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
